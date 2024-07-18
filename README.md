@@ -2,7 +2,7 @@
 
 This guide will get you started with RESTful APIs
 
-### Table of Contents
+# Table of Contents
 
 * [What is a RESTful API?](#what-is-a-restful-api)
 * [Installation](#why-do-we-need-restful-apis)
@@ -12,10 +12,10 @@ This guide will get you started with RESTful APIs
 
 
 
-### What is a RESTful API?
+# What is a RESTful API?
 REST (Representational State Transfer) is an architectural style for designing web services. It defines a set of rules and guidelines to ensure efficient and scalable communication between applications.
 
-# Think of it like this:
+### Think of it like this:
 
 Client (You): You're a customer in a restaurant, placing an order (making a request) with the waiter (the server) for specific food items (data).
 Server (Waiter): The waiter takes your order, relays it to the kitchen (communicates with the database), and delivers your food (sends the response).
@@ -28,7 +28,7 @@ REST APIs leverage objects to represent data. When a client makes a request, the
 
 
 
-### Why do we need RESTful APIs?
+# Why do we need RESTful APIs?
 Imagine using a weather app on your phone. Here's how REST APIs come into play:
 
 Client (Weather App): The app acts as your weather assistant, fetching information from a weather data server.
@@ -38,20 +38,20 @@ Behind the Scenes:
 The weather app utilizes an API (Application Programming Interface) to communicate with the weather server. This API acts as a translator, enabling the app to send clear requests and interpret the server's responses.
 Traditionally, servers might have sent entire webpages as responses. Imagine the app receiving a whole webpage just to display the current temperature. This is inefficient and inconvenient.
 
-# Structured Data Formats:
+### Structured Data Formats:
 Modern weather APIs use JSON for data exchange. JSON makes it easier for the weather app to understand and present the relevant information.
 
-# Beyond Temperature:
+### Beyond Temperature:
 Weather data encompasses more than just temperature. What if you want a 5-day forecast or specific weather conditions for your location?
 
-# This is where RESTful APIs come in handy:
+### This is where RESTful APIs come in handy:
 
 REST APIs provide a modular approach to accessing weather data. Instead of one large request, the app can make smaller, focused requests using HTTP methods like GET and POST:
 GET: "Hey server, give me the current temperature for Giza, Egypt."
 GET (extended): "Send me the next 5 days' forecast for the same location."
 
 
-# This offers several advantages:
+### This offers several advantages:
 
 Flexibility: The app can request specific data points instead of receiving everything at once.
 Scalability: As weather data becomes complex (adding radar images, allergy forecasts), the API can handle it efficiently.
@@ -61,7 +61,7 @@ In essence, REST APIs allow applications to efficiently access and display dynam
 
 
 
-###Principles of RESTful API:
+# Principles of RESTful API:
 
 -Statelessness: Each client request must contain all the information necessary for the server to understand it. The server doesn't rely on past interactions with the client.
 -Uniform Interface: A consistent interface with standard methods (GET, POST, PUT, DELETE) and resource identification through URIs simplifies communication.
@@ -73,16 +73,16 @@ In essence, REST APIs allow applications to efficiently access and display dynam
 
 
 
-### Methods of RESTful API:
+# Methods of RESTful API:
 
 ![image](https://github.com/user-attachments/assets/efa6f974-58f8-4875-9df7-af58932a7eb2)
 
 
 
 
-### Creating a RESTful API
+# Creating a RESTful API
 
-# Step 1: Initialize Your Project
+### Step 1: Initialize Your Project
 Let's start by creating a new directory for your project and initializing it with npm.
 ```bash
 mkdir my-rest-api
@@ -90,7 +90,7 @@ cd my-rest-api
 npm init -y
 ```
 
-# Step 2: Install Dependencies
+### Step 2: Install Dependencies
 
 Express: The web application framework for Node.js.
 Body-parser: A middleware for parsing incoming request bodies.
@@ -99,7 +99,7 @@ Body-parser: A middleware for parsing incoming request bodies.
 npm install express body-parser
 ```
 
-# Step 3: Create an express app
+### Step 3: Create an express app
 
 ```js
 const express = require('express');
