@@ -113,4 +113,12 @@ app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
 ```
-ذ`ذ
+
+# Step 4: Define Routes
+In a REST API, routes define the endpoints for different HTTP methods (GET, POST, PUT, DELETE). Let's create a simple example with a GET request:
+
+```js
+app.get('/api/hello', (req, res) => {
+  res.json({ message: 'Hello, World!' });
+});
+```
