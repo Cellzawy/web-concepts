@@ -9,7 +9,7 @@ This guide will get you started with RESTful APIs
 * [Contributing](#contributing)
 * [License](#license)
 
-### What is a RESTful API?  (#What-is-a-restful-api)
+### What is a RESTful API?
 
 
 ### Installation
