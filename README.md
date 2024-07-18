@@ -1,10 +1,10 @@
-##  Text Classification with Machine Learning
+##  RESTful API
 
-This project implements a machine learning model for text classification. 
+This guide will get you started with RESTful APIs
 
 ### Table of Contents
 
-* [Installation](#installation)
+* [What is a RESTful API?](#What-is-a-restful-api)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
