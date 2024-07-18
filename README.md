@@ -4,7 +4,7 @@ This guide will get you started with RESTful APIs
 
 ### Table of Contents
 
-* [What is a RESTful API?](#What-is-a-restful-api)
+* [What is a RESTful API?](#what-is-a-restful-api)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
