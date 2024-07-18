@@ -6,8 +6,12 @@ This guide will get you started with RESTful APIs
 
 * [What is a RESTful API?](#what-is-a-restful-api)
 * [Installation](#why-do-we-need-restful-apis)
-* [Contributing](#contributing)
+* [Principles of RESTful API](#principles-of-restful-api)
 * [License](#license)
+
+
+
+
 
 ### What is a RESTful API?
 `REST` here stands for **RE**presentational **S**tate **T**ransfer. It's an architectural style which follows some rules to create web apps/services
@@ -28,6 +32,10 @@ Imagine a restaurant:
 REST suggests to create an object of the data requested by the client, then send the values of that object to the client.
 
 So, you have an object and you are sending the **state** of an object. This is why REST is known as Representational **State** Transfer.
+
+
+
+
 
 ### Why do we need RESTful APIs?
 
@@ -69,5 +77,10 @@ This modularity offers several advantages:
 
 **-In conclusion**: REST APIs are the secret sauce that allows apps to efficiently access and display dynamic data.
 
-```bash
-git clone [invalid URL removed]
+
+
+
+###Principles of RESTful API:
+
+-Stateless :
+
