@@ -150,4 +150,4 @@ app.post('/api/todos', (req, res) => {
 });
 ```
 In this example, we've added routes to list and create to-do items. 
-# EXERCISE: You can extend this by implementing PUT and DELETE for updating and deleting tasks.
+# EXERCISE: Implement PUT and DELETE for updating and deleting tasks.
