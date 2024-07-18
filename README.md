@@ -133,3 +133,21 @@ npm start
 ```
 
 ![image](https://github.com/user-attachments/assets/81163dc1-20b9-4dea-bffe-c6e264f541a4)
+
+# Step 6: Add more routes
+
+```js
+let todos = [];
+
+app.get('/api/todos', (req, res) => {
+  res.json(todos);
+});
+
+app.post('/api/todos', (req, res) => {
+  const newTodo = req.body;
+  todos.push(newTodo);
+  res.status(201).json(newTodo);
+});
+```
+In this example, we've added routes to list and create to-do items. 
+# EXERCISE: You can extend this by implementing PUT and DELETE for updating and deleting tasks.
