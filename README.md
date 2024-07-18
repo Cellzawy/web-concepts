@@ -122,3 +122,14 @@ app.get('/api/hello', (req, res) => {
   res.json({ message: 'Hello, World!' });
 });
 ```
+
+This code defines a route for /api/hello that responds with a JSON message when accessed via a GET request.
+
+# Step 5: Run Your API
+You can run your API using Node.js:
+
+```bash
+npm start
+```
+
+![image](https://github.com/user-attachments/assets/81163dc1-20b9-4dea-bffe-c6e264f541a4)
